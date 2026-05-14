@@ -1,0 +1,16 @@
+[package]
+name = "P1Graph"
+authors = ["Elie De Brauwer <eliedebrauwer@gmail.com>"]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Text based P1 meter visualization"
+repository = "https://github.com/ElieDeBrauwer/P1Graph"
+
+[dependencies]
+reqwest = { version = "0.13.3", features = ["json", "blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+ratatui = "0.30.0"
+crossterm = "0.29"
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
