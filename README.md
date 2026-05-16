@@ -30,6 +30,8 @@ Both variants show consumption (red) and injection (green) of power, along with 
     ```
     Replace `192.168.1.192` with the actual IP address of your P1 meter.
 
+![Screenshot](./doc/screenshot-gtk.png)
+
     To force the text-based UI even in a graphical environment, use the `--text-ui` flag:
     ```bash
     ./target/release/P1Graph --ip 192.168.1.192 --text-ui
